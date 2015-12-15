@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font: 12px "\5B8B\4F53', 'Tahoma', 'simsun";
+    font: 12px/1.5  微软雅黑, arial;
     background-color: #fff;
     min-height: 100%;
     position: relative
@@ -83,43 +83,6 @@ abbr,acronym {
     float: right;
     display: inline
 }
-
-.f12 {
-    font-size: 12px
-}
-
-.f14 {
-    font-size: 14px
-}
-
-.f15 {
-    font-size: 15px
-}
-
-.f16 {
-    font-size: 16px
-}
-
-.f18 {
-    font-size: 18px
-}
-
-.f20 {
-    font-size: 20px
-}
-
-.f24 {
-    font-size: 24px
-}
-
-.f27 {
-    font-size: 27px
-}
-
-.f30 {
-    font-size: 30px
-}
-
 .txtcut {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -147,11 +110,6 @@ abbr,acronym {
 input::-ms-clear,input::-ms-reveal {
     display: none
 }
-
-.font-yahei {
-    font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",tahoma,arial,simsun,"\5B8B\4F53"
-}
-
 .pr {
     position: relative
 }
