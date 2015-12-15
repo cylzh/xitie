@@ -1,3 +1,5 @@
+
+i{font-style:normal;}
 /*iconfont*/
 @font-face {font-family: "iconfont";
     src: url('../font/iconfont.eot'); /* IE9*/
@@ -24,14 +26,78 @@
 
 /*m-head*/
 .m-nav{height:40px;line-height: 40px;background-color: rgb(211,211,211);font-size:14px;}
-.m-nav a{color:rgb(147,147,147);}
+.m-nav a{color:#636363;}
+.m-nav .extra span{color:#CCCCCC}
 .m-nav .home{color:rgb(250,99,134);}
+.m-nav .vip{margin-left:43px;}
+.m-nav .extra a,.m-nav .extra span{margin-left:13px;}
+.m-nav .extra .iconfont{margin-right:10px;}
 .m-nav .iconfont{color:#F58BA4;}
 
+/*m-menu*/
+.m-menu .content{position:relative;top:30px;}
+.m-menu ul li{float:left;display: inline;margin-left:60px;}
+.m-menu ul li.active{border-bottom: 3px solid #FF4B7A}
+.m-menu ul li a{font-size:16px;color:#585858;}
+.m-menu .start{width:108px;height:32px;line-height:32px;background-color:#FF4B7A;border-radius: 10px;color:#fff;font-size:16px;text-align: center;
+    box-shadow: inset 0 -3px 0 #E33A65;}
 
+/*home-body*/
+.m-home-body .hd{text-align: center;}
+.m-home-body .hd h2{font-size:24px;font-weight: bold;color:#2E2E2E;}
+.m-home-body .hd h2 em{font-weight: bold;}
+.m-home-body .hd p{color:#838383;}
+.m-home-body .hd i{width:340px;display:inline-block;color:#B3B3B3;background:url(../image/home.jpg) no-repeat -86px -85px; }
+.m-home-afun .hd h2 em{color:#51C1E9;}
+.m-home-lovepost .hd h2 em{color:#FF4B7A;}
+.m-home-steps .hd h2 em{color:#FF877E;}
+.m-home-quality .hd h2 em{color:#F89B00;}
+.m-home-user .hd h2 em{color:#FF7635;}
+.m-home-lovepost .hd i{background-position: -86px -105px}
+.m-home-steps .hd i{background-position: -86px -124px}
+.m-home-quality .hd i{background-position: -86px -142px}
+.m-home-user .hd i{background-position: -86px -142px}
 
+.m-home-afun{color:#CECECE;}
+.m-home-afun .box{padding:60px 0 80px 0;}
+.m-home-afun .box li{display: inline-block;width:24%;}
+.m-home-afun .box i{width:90px;height:90px;display: inline-block;background:url(../image/home-fun-icon.png) no-repeat;position: relative;top:20px;}
+.m-home-afun .box .body{  display: inline-block;}
+.m-home-afun .box .h{color:#747474;font-size:14px;}
+.m-home-afun .box p{width:104px;}
+
+.m-home-lovepost .list{width:960px;position: relative;height:500px;}
+.m-home-lovepost .list li{position: absolute;list-style-type: none;overflow: hidden;cursor: pointer;}
+.m-home-lovepost .list li div{width: 100%;height: 100%;background: #000;filter: alpha(opacity=10);opacity: 0.1;
+    position: absolute;z-index: 1;top: 0px;left: 0px;}
+.m-home-lovepost .list li img{width: 100%;height: 100%;vertical-align: top;border: none;}
+.m-home-lovepost .list li.active{box-shadow:0px 0px 15px #DBD9DA;}
+.m-home-lovepost .list li.active div{opacity: 0;}
+
+.m-home-steps .content{height:119px;background:url(../image/home-step-bg.png) no-repeat;margin-top:82px;padding-bottom:90px;}
+
+.m-home-quality .list{width:960px;position: relative;height:500px;}
+.m-home-quality .list li{position: absolute;list-style-type: none;overflow: hidden;cursor: pointer;}
+.m-home-quality .list li div{width: 100%;height: 100%;background: #000;filter: alpha(opacity=10);opacity: 0.1;
+    position: absolute;z-index: 1;top: 0px;left: 0px;}
+.m-home-quality .list li img{width: 100%;height: 100%;vertical-align: top;border: none;}
 
 
 /*m-foot*/
+.m-help{background-color:#E4E4E4;padding:20px 0 34px 0;color:#7F7F7F;}
+.m-help .logo{width:136px;height:107px;}
+
+.m-help .content .list,.m-help .extra{border-left:1px solid #B7B7B7;}
+.m-help .content .list .item{width:148px;text-align: center;}
+.m-help .content .list .h{font-size:14px;}
+.m-help .content .list li ul{margint-top:20px;padding-bottom:20px;line-height: 30px;}
+.m-help .extra img{width:120px;height:122px;margin-left:32px;margin-top:15px;}
+.m-help .extra .service{margin-left:30px;}
+.m-help .extra .h{font-size:16px;color:#8A8A8A;}
+.m-help .extra .phone{font-size:20px;color:#6F6F6F;}
+.m-help .extra .qq{width:146px;height:40px;line-height: 40px;border-radius: 5px;background-color:#FD628A;font-size:16px;color:#fff;text-align: center;}
+.m-help .extra .qq .icon-qq{font-size:24px;margin-right:10px;}
+.m-help .extra .company{font-size:14px;}
+.m-help .extra .phone,.m-help .extra .qq,.m-help .extra .company{margin-top:10px;}
 .m-foot{background:#F19BB0;height:30px;line-height: 30px;color:#F4D4DC;text-align: center;}
 
